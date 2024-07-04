@@ -1,10 +1,12 @@
+import styles from './Footer.module.css'
+
 function Footer(){
     
   const today = new Date();
 
     return(
        
-        <footer className="App">
+        <footer className={styles.Footer}>
             <p>
                 Copyright &copy; {today.getFullYear()}
             </p>
