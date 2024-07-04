@@ -1,7 +1,14 @@
+import styles from './Content.module.css'
+
+
+
 function Content(){
+
+
+
     return(
-        <main>
-            <p className="App">
+        <main >
+            <p className={styles.content}>
                 Products
             </p>
         </main>
