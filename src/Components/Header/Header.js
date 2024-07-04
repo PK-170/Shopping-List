@@ -1,8 +1,9 @@
+import styles from './Header.module.css'
 
 const Header = () => {
 
     return(
-            <header className="App">
+            <header className={styles.header}>
                 <h1>Shopping List</h1>
             </header>
     );
