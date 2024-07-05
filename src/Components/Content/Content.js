@@ -12,6 +12,13 @@ function Content(){
         console.log(name);
     }
 
+    const handleLast = () => {
+
+        const names = ['Daniel', 'Harry', 'Brian'];
+        const int = Math.floor(Math.random() * 3);
+        console.log(names[int]);
+    }
+
 
     return(
         <main >
@@ -20,6 +27,7 @@ function Content(){
             </p>
             <button onClick={handleClick}>Count</button>  
             <button onClick={()=>handleName("Milk")}>Product</button>
+            <button onClick={handleLast}>names</button> 
         </main>
 
     );
