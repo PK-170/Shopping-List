@@ -79,7 +79,7 @@ console.log(l);
 
 //Factorial with for
 
-function factEach(n){
+const factEach = (n) =>{
     let count = 1;
    for (let index = n; index >1; index--) {
          count *=index;
@@ -87,8 +87,6 @@ function factEach(n){
    return count;
 }
 
-const p = factEach(101);
-console.log(p);
 
 
     return(
@@ -99,6 +97,7 @@ console.log(p);
             <button onClick={handleClick}>Count</button>  
             <button onClick={()=>handleName("Milk")}>Product</button>
             <button onClick={handleLast}>names</button> 
+            <button onClick={()=>factEach(101)}>factoria</button> 
         </main>
 
     );
