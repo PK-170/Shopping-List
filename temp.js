@@ -1,20 +1,20 @@
 
 
-class Temp{
+class Person{
 
-    constructor(width, height, color){
-        console.log("The Temp is being created");
-        this.width = width;
+    constructor(name, height, color){
+        console.log("The obj is being created");
+        this.name = name;
         this.height = height;
         this.color = color;
     }
     
-    getArea(){
-        return this.width * this.height;
+    getName(){
+        return this.name;
     }
     
 }
 
-var obj1 = new Temp(5,3,"Blue");
+var obj1 = new Person("Sam",3,"Blue");
 console.log(obj1);
-console.log(obj1.getArea());
+console.log(obj1.getName());
