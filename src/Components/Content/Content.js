@@ -20,7 +20,7 @@ function Content(){
     }
 
 
-    // Question 1 - Palindrome Number
+    
 // An integer is a palindrome when it reads the same forward and backward.
 
 const isPalindrome = (x) =>{
