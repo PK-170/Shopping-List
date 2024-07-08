@@ -32,3 +32,4 @@ emp.setEmployee(1002, "John", "John@gmail.com", 46688885);
 console.log(emp.getName());
 console.log(emp.getEmail());
 console.log(emp.getPhone());
+console.log(emp.getId());
