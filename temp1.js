@@ -1,3 +1,4 @@
+
 class Employee{
 
    setEmployee(id, name, email, phone){
@@ -23,5 +24,6 @@ class Employee{
     return this.phone;
    }
 
-
 }
+
+let emp = new Employee();
