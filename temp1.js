@@ -25,7 +25,7 @@ class Employee{
    }
 
    set Phone(phone){
-      return this.Phone = phone;
+      return this.phone = phone;
    }
 
 }
@@ -37,5 +37,5 @@ console.log(emp.Name);
 console.log(emp.Email);
 console.log(emp.getPhone);
 console.log(emp.Id);
-console.log(emp.setPhone =1289456);
+console.log(emp.Phone =1289456);
 
