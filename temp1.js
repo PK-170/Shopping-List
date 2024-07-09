@@ -24,6 +24,10 @@ class Employee{
     return this.phone;
    }
 
+   set Phone(phone){
+      return this.Phone = phone;
+   }
+
 }
 
 let emp = new Employee();
@@ -31,6 +35,7 @@ let emp = new Employee();
 emp.setEmployee(1002, "John", "John@gmail.com", 46688885);
 console.log(emp.Name);
 console.log(emp.Email);
-console.log(emp.Phone);
+console.log(emp.getPhone);
 console.log(emp.Id);
+console.log(emp.setPhone =1289456);
 
