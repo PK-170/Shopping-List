@@ -8,19 +8,19 @@ class Employee{
     this.phone = phone;
    }
 
-   getName(){
+   get Name(){
     return this.name;
    }
 
-   getId(){
+   get Id(){
     return this.id;
    }
 
-   getEmail(){
+   get Email(){
     return this.email;
    }
 
-   getPhone(){
+   get Phone(){
     return this.phone;
    }
 
@@ -29,7 +29,8 @@ class Employee{
 let emp = new Employee();
 
 emp.setEmployee(1002, "John", "John@gmail.com", 46688885);
-console.log(emp.getName());
-console.log(emp.getEmail());
-console.log(emp.getPhone());
-console.log(emp.getId());
+console.log(emp.Name);
+console.log(emp.Email);
+console.log(emp.Phone);
+console.log(emp.Id);
+
