@@ -12,7 +12,7 @@ class User{
     return this.accountBalance;
  }
 
- 
+
 }
 
 const user1 = new User(1001, "John", 100);
