@@ -9,7 +9,7 @@ class User{
 
 
 
- checkBalance(){
+ displayBalance(){
     return this.accountBalance;
  }
 
@@ -22,7 +22,7 @@ class User{
 
 const user1 = new User(1001, "John", 100);
 console.log(user1);
-console.log(user1.checkBalance());
 user1.deposit(6600);
+console.log(user1.displayBalance());
 
 
