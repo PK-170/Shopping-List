@@ -10,17 +10,19 @@ class User{
 
 
  displayBalance(){
-    return console.log("Your account balance is  " + (this.accountBalance));
+    return console.log("Your account balance is  $" + (this.accountBalance));
  }
 
  deposit(amount){
-   return console.log("Your account balance is  " + (this.accountBalance += amount));
+   if (amount > 0)(this.accountBalance += amount);
+   this.displayBalance();
  }
 
  withdraw(amount){
   console.log("withdraw start here");
   if(this.accountBalance >= amount){this.accountBalance -= amount}
-  else{console.log("Sorry you have insufficient funds")}
+  else{console.log(" You have requested $" + amount + ", Sorry you have insufficient funds")}
+  this.displayBalance();
  }
 
  
@@ -29,8 +31,8 @@ class User{
 const user1 = new User(1001, "John", 100);
 //console.log(user1);
 user1.deposit(6600);
-user1.withdraw(6600);
-user1.displayBalance();
+user1.withdraw(6900);
+
 
 
 
