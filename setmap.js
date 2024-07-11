@@ -21,6 +21,11 @@ const map = new Map([
 ]
 );
 
-map.set("ag0", 22);
+map.set("age", 22);
 console.log(map);
 
+console.log(map.get("name"));
+
+for(item of map){
+    console.log(item);
+}
