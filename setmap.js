@@ -13,3 +13,14 @@ set.add("d");
 for(item of set){
     console.log(item);
 }
+
+const map = new Map([
+    ["name", "Ming"],
+    ["last", "Young"],
+    ["profesion", "Student"]
+]
+);
+
+map.set("ag0", 22);
+console.log(map);
+
