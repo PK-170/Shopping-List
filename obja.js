@@ -9,6 +9,12 @@ const User = {
         brand: "Lenovo",
         ram: 8,
         storage: 256,
+    },
+    mobile_phone: {
+        brand: "Samsung",
+        model: "A52",
+        ram: 4,
+        storage: 128
     }
 }
 
@@ -17,3 +23,4 @@ User.setRegion = "QLD";
 User.age = 20;
 console.log(User.region);
 console.log(User.laptop.brand);
+console.log(User.mobile_phone.brand);
