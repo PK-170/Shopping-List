@@ -24,3 +24,4 @@ User.age = 20;
 console.log(User.region);
 console.log(User.laptop.brand);
 console.log(User.mobile_phone.brand);
+console.log(User);
