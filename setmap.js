@@ -1,12 +1,13 @@
 //Array
 const arr = new Array("Hello", "This", "is", "is", "Array");
 
-
 for(item of arr){
     console.log(item);
 }
 console.log(arr[3]);
 
+
+// set
 //const set = new Set(arr);
 const set = new Set(["a", "b", "d", "k"]);
 
@@ -20,6 +21,8 @@ set.add("d");
 for(item of set){
     console.log(item);
 }
+
+
 
 //map
 
@@ -38,3 +41,11 @@ console.log(map.get("name"));
 for(item of map){
     console.log(item);
 }
+
+
+// Map constructor
+const map1 = new Map();
+
+map1.set("Name", "Ming Young")
+
+console.log(map1);
