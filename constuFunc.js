@@ -42,7 +42,7 @@ const outerFunc = function(){
      }
 
      function decrement(count){
-        return count -=1;
+        return console.log("This is decrement")
      }
 
      return [increment, decrement];
@@ -51,3 +51,4 @@ const outerFunc = function(){
 let [increment, decrement] = outerFunc();
 
 increment();
+decrement();
