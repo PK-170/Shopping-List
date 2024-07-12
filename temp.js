@@ -15,6 +15,10 @@ class Person{
     get Height(){
         return this.height;
     }
+
+    set nameas(newname){
+        return this.name = newname;
+    }
 }
 
 class Programer extends Person{
@@ -33,3 +37,4 @@ let programer = new Programer("tim", 8, "brown", "developer");
 console.log(programer);
 console.log(programer.Name);
 console.log(programer.Height);
+console.log(programer.newname = "Ragav");
