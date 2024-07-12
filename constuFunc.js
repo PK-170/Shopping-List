@@ -31,3 +31,23 @@ const factoryLogger = (type) => {
 
 let errorLogger = factoryLogger("ERROR");
 errorLogger("This is an error logger");
+
+//function inside 
+
+const outerFunc = function(){
+
+
+     function increment(count){
+        return console.log("This is increment");
+     }
+
+     function decrement(count){
+        return count -=1;
+     }
+
+     return [increment, decrement];
+}
+
+let [increment, decrement] = outerFunc();
+
+increment();
