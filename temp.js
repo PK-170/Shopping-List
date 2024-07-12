@@ -8,10 +8,13 @@ class Person{
         this.color = color;
     }
     
-    getName(){
+    get Name(){
         return this.name;
     }
     
+    get Height(){
+        return this.height;
+    }
 }
 
 class Programer extends Person{
@@ -25,7 +28,8 @@ constructor(name, height, color, role){
 
 var obj1 = new Person("Sam",3,"Blue");
 console.log(obj1);
-console.log(obj1.getName());
+console.log(obj1.Name);
 let programer = new Programer("tim", 8, "brown", "developer");
 console.log(programer);
-console.log(programer.getName());
+console.log(programer.Name);
+console.log(programer.Height);
