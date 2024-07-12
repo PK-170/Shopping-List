@@ -1,4 +1,11 @@
-const arr = ["Hello", "This", "is", "is", "Array"];
+//Array
+const arr = new Array("Hello", "This", "is", "is", "Array");
+
+
+for(item of arr){
+    console.log(item);
+}
+console.log(arr[3]);
 
 //const set = new Set(arr);
 const set = new Set(["a", "b", "d", "k"]);
@@ -13,6 +20,8 @@ set.add("d");
 for(item of set){
     console.log(item);
 }
+
+//map
 
 const map = new Map([
     ["name", "Ming"],
