@@ -39,3 +39,9 @@ console.log(emp.Phone);
 console.log(emp.Id);
 console.log(emp.Phone =1289456);
 
+
+//Data Structure
+const array = new Array();
+const obja = new Object();
+const set = new Set();
+const map = new Map();
