@@ -49,3 +49,16 @@ const map1 = new Map();
 map1.set("Name", "Ming Young")
 
 console.log(map1);
+
+// percentage function with rest parameters
+
+const calcPencentage = (...args)=>{
+     let total = 0;
+     for(item of args){
+        total += item;
+     }
+     return total/args.length;
+}
+
+const result = calcPencentage(56, 77, 88, 97);
+console.log(result);
