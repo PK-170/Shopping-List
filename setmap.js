@@ -52,13 +52,13 @@ console.log(map1);
 
 // percentage function with rest parameters
 
-const calcPencentage = (...args)=>{
+const calcPencentage = (name, ...args)=>{
      let total = 0;
      for(item of args){
         total += item;
      }
-     return total/args.length;
+     let sum = total/args.length;
+     console.log(`${name}'s total percentage is ${sum}`);
 }
 
-const result = calcPencentage(56, 77, 88, 97);
-console.log(result);
+calcPencentage("Zihan", 56, 77, 88, 97, 55, 44);
