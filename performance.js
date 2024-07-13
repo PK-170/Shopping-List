@@ -13,7 +13,7 @@ function sumupFor(n){
 }
 
 // function find max value in an array
-const array = [44, 88, 33, 67, 188, 10101, 23456, 888, 999, 44444444, 55555, 0, -1, -100]
+const array = [44, 88, 33, 67, 188, 10101, 23456, 888, 999, 44444444, 55555, 0, -1, -100, -5000000]
 
 function findmax(arr){
     let max = 0;
