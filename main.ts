@@ -19,6 +19,8 @@ let point2: Point = new Point("Small", 50, 100);
 console.log(point1);
 console.log(point2);
 
+
+// find the max value in an Array
 const findMax = function(arr: Array<number>): number{
     let max = 0;
     for(let item of arr){
@@ -27,10 +29,26 @@ const findMax = function(arr: Array<number>): number{
     return max;
 }
 
-let arr = [56, 77, 88, 97, 55, 44, 2999, 4444, 4444,39393];
+let arr: Array<number> = [56, 77, 88, 97, 55, 44, 2999, 4444, 4444,39393];
+arr.push(55);
+
+console.log(arr);
 
 console.log(findMax(arr));
 
+// find the min value in an Array
+
+const findMin = function(arr: Array<number>): number{
+    let min = Infinity;
+    for(let item of arr){
+        if(item < min){min = item}
+    }
+    return min;
+}
+
+console.log(findMin(arr));
+
+// interface in TS
 
 interface User{
     name: string;
