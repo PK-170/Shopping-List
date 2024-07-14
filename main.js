@@ -1,9 +1,15 @@
-{
-    var x = 100;
-    var y = 566600;
-    var c = x + y;
-    console.log(c);
-}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Point = /** @class */ (function () {
+    function Point(name, x, y) {
+        this.name = name;
+        this.x = x;
+        this.y = y;
+    }
+    return Point;
+}());
+var point1 = new Point("Big", 100, 200);
+console.log(point1);
 var me = {
     name: "Ming",
     age: 22,

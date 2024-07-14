@@ -1,9 +1,22 @@
-{let x: number = 100;
-let y: number = 566600;
+class Point {
 
-let c: number = x + y;
-console.log(c);
+    public name: string; 
+    public x: number;
+    public y: number;
+
+
+     constructor(name: string, x: number, y: number){
+        this.name = name;
+        this.x = x;
+        this.y = y;
+    }
+   
 }
+
+let point1 = new Point("Big", 100, 200);
+
+console.log(point1);
+
 
 interface User{
     name: string;
@@ -25,3 +38,5 @@ const me: User = {
 };
 
 console.log(me);
+
+export {}
