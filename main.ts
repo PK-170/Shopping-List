@@ -21,7 +21,7 @@ console.log(point2);
 
 
 // find the max value in an Array
-const findMax = function(arr: Array<number>): number{
+const findMax = function(arr: number[]): number{
     let max = 0;
     for(let item of arr){
          if(item > max) {max = item };
@@ -38,7 +38,7 @@ console.log(findMax(arr));
 
 // find the min value in an Array
 
-const findMin = function(arr: Array<number>): number{
+const findMin = function(arr: number[]): number{
     let min = Infinity;
     for(let item of arr){
         if(item < min){min = item}
@@ -51,7 +51,7 @@ console.log(findMin(arr));
 
 // Find the avrage of an Array of numbers
 
-const findAvrage = function(arr: Array<number>): number{
+const findAvrage = function(arr: number[]): number{
     let sum = 0;
     let avr = 0;
     for(let item of arr){sum += item}
