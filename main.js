@@ -76,6 +76,13 @@ var user = /** @class */ (function () {
         return this.balance;
     };
     user.prototype.withdraw = function (amount) {
+        if (amount > this.balance) {
+            console.log("Sorry you have insufficient balance " + "$" + this.balance);
+        }
+        else {
+            this.balance - amount;
+            console.log(this.getAccountBalance());
+        }
     };
     user.prototype.deposit = function (amount) {
     };
@@ -83,3 +90,4 @@ var user = /** @class */ (function () {
 }());
 var user1 = new user("Ming", 1001, "p123456", 100);
 console.log(user1.getAccountBalance());
+user1.withdraw(200);

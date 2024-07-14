@@ -122,7 +122,10 @@ class user implements AccountUser{
     }
 
     withdraw(amount: number): void {
-        
+          if(amount > this.balance){console.log("Sorry you have insufficient balance " + "$"+this.balance);
+          } else{this.balance - amount; console.log(this.getAccountBalance());}
+         
+                 
     }
 
     deposit(amount: number): void {
@@ -132,6 +135,7 @@ class user implements AccountUser{
 
 let user1 = new user("Ming", 1001, "p123456", 100);
 console.log(user1.getAccountBalance());
+user1.withdraw(200);
 
 
 
