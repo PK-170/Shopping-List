@@ -73,15 +73,15 @@ var user = /** @class */ (function () {
         this.balance = balance;
     }
     user.prototype.getAccountBalance = function () {
-        return this.balance;
+        return console.log("Your account balance is " + "$ " + this.balance);
     };
     user.prototype.withdraw = function (amount) {
         if (amount > this.balance) {
             console.log("Sorry you have insufficient balance " + "$" + this.balance);
         }
         else {
-            this.balance - amount;
-            console.log(this.getAccountBalance());
+            this.balance -= amount;
+            this.getAccountBalance();
         }
     };
     user.prototype.deposit = function (amount) {
@@ -89,5 +89,20 @@ var user = /** @class */ (function () {
     return user;
 }());
 var user1 = new user("Ming", 1001, "p123456", 100);
-console.log(user1.getAccountBalance());
-user1.withdraw(200);
+user1.getAccountBalance();
+user1.withdraw(100);
+var char = "mario";
+var age = 22;
+var isBlackBelt = true;
+var StringOrNum = 100;
+//function signature
+var calc;
+calc = function (numOne, numTwo, action) {
+    if (action === "add") {
+        return numOne + numTwo;
+    }
+    else {
+        return numOne - numTwo;
+    }
+};
+console.log(calc(500, 400, "a"));

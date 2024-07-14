@@ -87,14 +87,14 @@ const me: User = {
 
 console.log(me);
 
-
+// Bank Account and some method to implement
 interface AccountUser{
 
     accountName: string;
     accountNumber: number;
     password: string;
 
-    getAccountBalance(User: AccountUser):number;
+    getAccountBalance(User: AccountUser):void;
     withdraw(amount: number):void;
     deposit(amount: number):void;
 
@@ -117,13 +117,13 @@ class user implements AccountUser{
     }
     
      
-    getAccountBalance(): number {
-        return this.balance;
+    getAccountBalance(): void {
+        return console.log("Your account balance is "+"$ "+this.balance);
     }
 
     withdraw(amount: number): void {
           if(amount > this.balance){console.log("Sorry you have insufficient balance " + "$"+this.balance);
-          } else{this.balance - amount; console.log(this.getAccountBalance());}
+          } else{this.balance -= amount; this.getAccountBalance();}
          
                  
     }
@@ -134,9 +134,26 @@ class user implements AccountUser{
 }
 
 let user1 = new user("Ming", 1001, "p123456", 100);
-console.log(user1.getAccountBalance());
-user1.withdraw(200);
+user1.getAccountBalance();
+user1.withdraw(100);
 
+let char = "mario";
+let age = 22;
+let isBlackBelt = true;
+
+type StringOrNum = string | number;
+
+let StringOrNum = 100;
+
+//function signature
+let calc: (a: number, b: number, c: string)=> number;
+
+calc = (numOne: number, numTwo: number, action: string)=>{
+    if(action === "add"){ return numOne + numTwo;}
+    else{ return numOne-numTwo ;}
+    }
+
+console.log(calc(500, 400, "a"));
 
 
 export {}
