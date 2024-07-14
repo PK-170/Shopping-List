@@ -13,9 +13,12 @@ class Point {
    
 }
 
-let point1 = new Point("Big", 100, 200);
+let point1: Point = new Point("Big", 100, 200);
+let point2: Point = new Point("Small", 50, 100);
 
 console.log(point1);
+console.log(point2);
+
 
 
 interface User{

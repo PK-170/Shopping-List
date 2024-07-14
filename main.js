@@ -9,7 +9,9 @@ var Point = /** @class */ (function () {
     return Point;
 }());
 var point1 = new Point("Big", 100, 200);
+var point2 = new Point("Small", 50, 100);
 console.log(point1);
+console.log(point2);
 var me = {
     name: "Ming",
     age: 22,
