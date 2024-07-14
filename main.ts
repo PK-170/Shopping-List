@@ -29,7 +29,7 @@ const findMax = function(arr: Array<number>): number{
     return max;
 }
 
-let arr: Array<number> = [56, 77, 88, 97, 55, 44, 2999, 4444, 4444,39393];
+let arr: Array<number> = [56, 77, 88, 97, 55];
 arr.push(55);
 
 console.log(arr);
@@ -55,6 +55,9 @@ const findAvrage = function(arr: Array<number>): number{
     let sum = 0;
     let avr = 0;
     for(let item of arr){sum += item}
+    console.log(sum);
+    console.log(arr.length);
+    
     return  avr = (sum/arr.length);
 }
 

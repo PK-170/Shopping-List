@@ -24,7 +24,7 @@ var findMax = function (arr) {
     }
     return max;
 };
-var arr = [56, 77, 88, 97, 55, 44, 2999, 4444, 4444, 39393];
+var arr = [56, 77, 88, 97, 55];
 arr.push(55);
 console.log(arr);
 console.log(findMax(arr));
@@ -48,7 +48,9 @@ var findAvrage = function (arr) {
         var item = arr_3[_i];
         sum += item;
     }
-    return avr = sum / arr.length;
+    console.log(sum);
+    console.log(arr.length);
+    return avr = (sum / arr.length);
 };
 console.log(findAvrage(arr));
 var me = {
