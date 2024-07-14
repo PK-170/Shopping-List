@@ -87,4 +87,52 @@ const me: User = {
 
 console.log(me);
 
+
+interface AccountUser{
+
+    accountName: string;
+    accountNumber: number;
+    password: string;
+
+    getAccountBalance(User: AccountUser):number;
+    withdraw(amount: number):void;
+    deposit(amount: number):void;
+
+}
+
+
+class user implements AccountUser{
+    
+    accountName: string;
+    accountNumber: number;
+    password: string;
+    balance: number;
+
+    constructor(accountName: string, accountNumber: number, password: string, balance: number){
+             this.accountName = accountName;
+             this.accountNumber= accountNumber;
+             this.password = password;
+             this.balance = balance;
+    
+    }
+    
+     
+    getAccountBalance(): number {
+        return this.balance;
+    }
+
+    withdraw(amount: number): void {
+        
+    }
+
+    deposit(amount: number): void {
+        
+    }
+}
+
+let user1 = new user("Ming", 1001, "p123456", 100);
+console.log(user1.getAccountBalance());
+
+
+
 export {}

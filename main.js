@@ -65,3 +65,21 @@ var me = {
     }
 };
 console.log(me);
+var user = /** @class */ (function () {
+    function user(accountName, accountNumber, password, balance) {
+        this.accountName = accountName;
+        this.accountNumber = accountNumber;
+        this.password = password;
+        this.balance = balance;
+    }
+    user.prototype.getAccountBalance = function () {
+        return this.balance;
+    };
+    user.prototype.withdraw = function (amount) {
+    };
+    user.prototype.deposit = function (amount) {
+    };
+    return user;
+}());
+var user1 = new user("Ming", 1001, "p123456", 100);
+console.log(user1.getAccountBalance());
