@@ -40,6 +40,17 @@ var findMin = function (arr) {
     return min;
 };
 console.log(findMin(arr));
+// Find the avrage of an Array of numbers
+var findAvrage = function (arr) {
+    var sum = 0;
+    var avr = 0;
+    for (var _i = 0, arr_3 = arr; _i < arr_3.length; _i++) {
+        var item = arr_3[_i];
+        sum += item;
+    }
+    return avr = sum / arr.length;
+};
+console.log(findAvrage(arr));
 var me = {
     name: "Ming",
     age: 22,

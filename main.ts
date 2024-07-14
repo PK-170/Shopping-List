@@ -48,6 +48,19 @@ const findMin = function(arr: Array<number>): number{
 
 console.log(findMin(arr));
 
+
+// Find the avrage of an Array of numbers
+
+const findAvrage = function(arr: Array<number>): number{
+    let sum = 0;
+    let avr = 0;
+    for(let item of arr){sum += item}
+    return  avr = (sum/arr.length);
+}
+
+console.log(findAvrage(arr));
+
+
 // interface in TS
 
 interface User{
