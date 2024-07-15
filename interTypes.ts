@@ -15,3 +15,7 @@ let a = [22, 66, 77, 99];
 console.log(getIndexOfAnArrayItem(a, 77));
 
 //function takes two different types and return arrray of both items
+
+function arrayPair<T, K>(itemOne: T, itmeTwo: K): [T,K]{
+    return [itemOne, itmeTwo];
+}
