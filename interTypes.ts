@@ -31,3 +31,7 @@ function consoleError(errMsg: string):void{
 consoleError("This is Error")  
 
 // function to handle error
+
+function handleError(msg: string):never{
+     throw new Error(msg);
+}
