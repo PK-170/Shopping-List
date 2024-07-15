@@ -19,3 +19,5 @@ console.log(getIndexOfAnArrayItem(a, 77));
 function arrayPair<T, K>(itemOne: T, itmeTwo: K): [T,K]{
     return [itemOne, itmeTwo];
 }
+
+console.log(arrayPair("Test", 50000));
