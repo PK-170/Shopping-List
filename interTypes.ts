@@ -26,5 +26,8 @@ console.log(arrayPair("Test", 50000));
 
 function consoleError(errMsg: string):void{
     console.log(errMsg);
-    
 }
+
+consoleError("This is Error")  
+
+// function to handle error
