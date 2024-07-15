@@ -21,3 +21,10 @@ function arrayPair<T, K>(itemOne: T, itmeTwo: K): [T,K]{
 }
 
 console.log(arrayPair("Test", 50000));
+
+//console error function
+
+function consoleError(errMsg: string):void{
+    console.log(errMsg);
+    
+}
