@@ -148,6 +148,7 @@ let StringOrNum = 100;
 //function signature
 let calc: (a: number, b: number, c: string)=> number;
 
+//implementation of calc
 calc = (numOne: number, numTwo: number, action: string)=>{
     if(action === "add"){ return numOne + numTwo;}
     else{ return numOne-numTwo ;}
