@@ -57,3 +57,10 @@ type User1 = {
     email: string;
     isAtive: boolean;
 }
+
+let myUser: User1 = {
+    _id: "1001",
+    name: "Young",
+    email: "m.com",
+    isAtive: true
+}
