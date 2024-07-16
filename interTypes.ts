@@ -56,11 +56,15 @@ type User1 = {
     name: string;
     email: string;
     isAtive: boolean;
+    creditCardDetails?: number
 }
 
 let myUser: User1 = {
     _id: "1001",
     name: "Young",
     email: "m.com",
-    isAtive: true
+    isAtive: true,
 }
+
+myUser.email = "y.com";
+//myUser._id = "1002";  //  can't change readonly 
