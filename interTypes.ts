@@ -48,3 +48,12 @@ function createUser(user: User): User{
 }
 
 createUser({name:"Ming", email:"m.com", isAtive:true})
+
+
+//type 
+type User1 = {
+    readonly _id: string;
+    name: string;
+    email: string;
+    isAtive: boolean;
+}
