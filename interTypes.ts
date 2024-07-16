@@ -35,3 +35,11 @@ consoleError("This is Error")
 function handleError(msg: string):never{
      throw new Error(msg);
 }
+
+//type 
+type User = {
+    name: string;
+    email: string;
+    isAtive: boolean;
+}
+
