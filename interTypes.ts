@@ -46,3 +46,5 @@ type User = {
 function createUser(user: User): User{
    return {name:"", email:"", isAtive: true}
 }
+
+createUser({name:"Ming", email:"m.com", isAtive:true})
