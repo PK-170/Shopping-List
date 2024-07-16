@@ -43,3 +43,6 @@ type User = {
     isAtive: boolean;
 }
 
+function createUser(user: User): User{
+   return {name:"", email:"", isAtive: true}
+}
