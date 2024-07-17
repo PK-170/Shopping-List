@@ -114,3 +114,11 @@ enum Status {
 }
 
 console.log(Status.Done);
+
+//greet function
+function greet(person: string, date: Date): void{
+    console.log(`Hello ${person} today is ${date.toDateString()}`);
+    
+}
+
+greet("Ming", new Date());

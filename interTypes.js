@@ -38,3 +38,29 @@ var increment = function (x) { return x + 1; };
 console.log(increment(5));
 var tostring = function (x) { return "\"".concat(x, "\""); };
 console.log(tostring(2));
+// as const
+var user = {
+    name: "Ming",
+    age: 22,
+    id: 1001
+};
+//JS to check type
+function add1(n1, n2) {
+    if (typeof n1 !== 'number' && typeof n2 !== "number") {
+        throw new Error('Something went wrong');
+    }
+    return n1 + n2;
+}
+//Enum
+var Status;
+(function (Status) {
+    Status[Status["NotStarted"] = 0] = "NotStarted";
+    Status[Status["InProgress"] = 1] = "InProgress";
+    Status[Status["Done"] = 2] = "Done";
+})(Status || (Status = {}));
+console.log(Status.Done);
+//greet function
+function greet(person, date) {
+    console.log("Hello ".concat(person, " today is ").concat(date.toDateString()));
+}
+greet("Ming", new Date());

@@ -38,3 +38,9 @@ console.log(programer);
 console.log(programer.Name);
 console.log(programer.Height);
 console.log(programer.newname = "Ragav");
+
+function compact(arr){
+    if(orr.length > 10)
+          return arr.trim(0, 10)
+          return arr
+}
