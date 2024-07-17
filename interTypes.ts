@@ -68,3 +68,12 @@ let myUser: User1 = {
 
 myUser.email = "y.com";
 //myUser._id = "1002";  //  can't change readonly 
+
+
+// Functional style function
+
+type Increment = (x: number) => number;
+const increment: Increment = x => x + 1;
+
+console.log(increment(5));
+
