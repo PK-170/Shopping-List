@@ -85,4 +85,8 @@ const tostring: Tostring = x => `"${x}"`;
 
 console.log(tostring(2));
 
+//increment then string
+
+type IncrementThenToString = (x: number) => string;
+
 
