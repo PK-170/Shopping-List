@@ -77,3 +77,12 @@ const increment: Increment = x => x + 1;
 
 console.log(increment(5));
 
+//return tostring
+
+type Tostring = (x: number) => string;
+
+const tostring: Tostring = x => `"${x}"`;
+
+console.log(tostring(2));
+
+
