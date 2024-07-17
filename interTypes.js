@@ -14,3 +14,27 @@ function arrayPair(itemOne, itmeTwo) {
     return [itemOne, itmeTwo];
 }
 console.log(arrayPair("Test", 50000));
+//console error function
+function consoleError(errMsg) {
+    console.log(errMsg);
+}
+consoleError("This is Error");
+// function to handle error
+function handleError(msg) {
+    throw new Error(msg);
+}
+function createUser(user) {
+    return { name: "", email: "", isAtive: true };
+}
+createUser({ name: "Ming", email: "m.com", isAtive: true });
+var myUser = {
+    _id: "1001",
+    name: "Young",
+    email: "m.com",
+    isAtive: true,
+};
+myUser.email = "y.com";
+var increment = function (x) { return x + 1; };
+console.log(increment(5));
+var tostring = function (x) { return "\"".concat(x, "\""); };
+console.log(tostring(2));

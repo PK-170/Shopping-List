@@ -90,3 +90,9 @@ console.log(tostring(2));
 type IncrementThenToString = (x: number) => string;
 
 
+// as const
+const user = {
+    name: "Ming",
+    age: 22,
+    id: 1001
+} as const
