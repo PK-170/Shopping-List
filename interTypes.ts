@@ -96,3 +96,12 @@ const user = {
     age: 22,
     id: 1001
 } as const
+
+//JS to check type
+
+function add1(n1, n2){
+    if(typeof n1 !== 'number' && typeof n2 !== "number"){
+        throw new Error('Something went wrong');
+    }
+    return n1+n2;
+}
