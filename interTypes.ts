@@ -157,3 +157,7 @@ interface Course {
         return value.toLowerCase();
     }return value + 3;
  }
+
+ //id
+
+ function provideId(){}
