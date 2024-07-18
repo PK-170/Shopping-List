@@ -164,3 +164,9 @@ interface Course {
      if(!id){console.log("please provide an Id"); return;
      } else {return id};
  }
+
+ // Tuples
+
+ let tuple: [string, number, boolean];
+
+ tuple = ["Ming", 1001, true];
