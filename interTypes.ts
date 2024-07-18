@@ -122,3 +122,10 @@ function greet(person: string, date: Date): void{
 }
 
 greet("Ming", new Date());
+
+
+//generics
+
+function anotherGene<T, U>(valOne: T, valTwo: U): object{
+  return {valOne, valTwo};
+}
