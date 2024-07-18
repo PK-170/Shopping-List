@@ -142,3 +142,10 @@ interface Course {
     author: string,
     subject: string
 }
+ class sellable<T>{
+    public cart: T[] = [];
+
+    addToCart(Product: T){
+        this.cart.push(Product);
+    }
+ }
