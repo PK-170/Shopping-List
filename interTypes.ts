@@ -149,3 +149,11 @@ interface Course {
         this.cart.push(Product);
     }
  }
+
+ //detect type
+
+ function detectType(value: number|string){
+    if(typeof value === "string"){
+        return value.toLowerCase();
+    }return value + 3;
+ }
