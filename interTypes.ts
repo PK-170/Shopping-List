@@ -160,4 +160,7 @@ interface Course {
 
  //id
 
- function provideId(){}
+ function provideId(id: number|null){
+     if(!id){console.log("please provide an Id"); return;
+     } else {return id};
+ }
