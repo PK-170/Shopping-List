@@ -175,5 +175,9 @@ interface Course {
 
  tuple[0] = "Young";
  console.log(tuple);
+
+ //coordinates tuples
+ type threeCoordinates = [x: number, y: number, z:number]
  
+
  
