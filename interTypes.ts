@@ -178,6 +178,12 @@ interface Course {
 
  //coordinates tuples
  type threeCoordinates = [x: number, y: number, z:number]
+
+ // function
+
+ function toFahrenhiet(degreeCelcius: number): number{
+      return (1.8 * degreeCelcius +32);
+ }
  
 
  
