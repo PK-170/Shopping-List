@@ -170,3 +170,10 @@ interface Course {
  let tuple: [string, number, boolean];
 
  tuple = ["Ming", 1001, true];
+
+ console.log(tuple);
+
+ tuple[0] = "Young";
+ console.log(tuple);
+ 
+ 

@@ -64,3 +64,40 @@ function greet(person, date) {
     console.log("Hello ".concat(person, " today is ").concat(date.toDateString()));
 }
 greet("Ming", new Date());
+//generics
+function anotherGene(valOne, valTwo) {
+    return { valOne: valOne, valTwo: valTwo };
+}
+var sellable = /** @class */ (function () {
+    function sellable() {
+        this.cart = [];
+    }
+    sellable.prototype.addToCart = function (Product) {
+        this.cart.push(Product);
+    };
+    return sellable;
+}());
+//detect type
+function detectType(value) {
+    if (typeof value === "string") {
+        return value.toLowerCase();
+    }
+    return value + 3;
+}
+//id
+function provideId(id) {
+    if (!id) {
+        console.log("please provide an Id");
+        return;
+    }
+    else {
+        return id;
+    }
+    ;
+}
+// Tuples
+var tuple;
+tuple = ["Ming", 1001, true];
+console.log(tuple);
+tuple[0] = "Young";
+console.log(tuple);
