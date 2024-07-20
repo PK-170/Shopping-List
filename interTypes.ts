@@ -184,6 +184,15 @@ interface Course {
  function toFahrenhiet(degreeCelcius: number): number{
       return (1.8 * degreeCelcius +32);
  }
+
+ // log value of array
+
+ const logNums = (arr: number[]): void => {
+    for(let i=0; i<=arr.length; i++){
+        console.log(arr[i]);
+        
+    }
+ }
  
 
  
