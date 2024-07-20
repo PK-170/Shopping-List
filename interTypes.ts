@@ -193,7 +193,7 @@ interface Course {
         
     }
  }
-const arr1: number[]=  [12, 33, 66, 78];
+const arr1: number[]=  [12, 33, 66, 78, 33, 66, 99];
  logNums(arr1);
  
 // contain duplicate
@@ -203,3 +203,4 @@ const containsDuplicate = (arr2: number[]): boolean =>{
     return set.size < arr2.length;
 }
  
+containsDuplicate(arr1);
