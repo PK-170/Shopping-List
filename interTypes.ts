@@ -193,6 +193,8 @@ interface Course {
         
     }
  }
+const arr1: number[]=  [12, 33, 66, 78];
+ logNums(arr1);
  
 
  
