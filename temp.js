@@ -44,3 +44,11 @@ function compact(arr){
           return arr.trim(0, 10)
           return arr
 }
+
+// resursive
+
+function goToDinner(person){
+    if(person === 5){return true}
+    console.log(person);
+    return goToDinner(person + 1);
+}
