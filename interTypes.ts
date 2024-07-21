@@ -220,3 +220,14 @@ type cardDate = {
 type cardDetails = cardNumber & cardDate & {
     cvv: number;
 }
+
+// array
+
+const listOfChar: String[] = [];
+listOfChar.push("TestArray");
+
+const listOfNum: number[] = [];
+listOfNum.push(5);
+
+const listofcharac: Array<number> = [];
+listofcharac.push(66);
