@@ -202,5 +202,17 @@ const containsDuplicate = (arr2: number[]): boolean =>{
     const set = new Set<number>(arr2);
     return set.size < arr2.length;
 }
+
  
 containsDuplicate(arr1);
+
+
+// type
+
+type cardNumber = {
+    cardNumber: string;
+}
+
+type cardDate = {
+    cardDate:string;
+}
