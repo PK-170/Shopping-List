@@ -231,3 +231,11 @@ listOfNum.push(5);
 
 const listofcharac: Array<number> = [];
 listofcharac.push(66);
+
+type userDe = {
+    name: string;
+    isActive: boolean;
+}
+
+const newArr: userDe[] = [];
+newArr.push({name: "Young", isActive: true});
