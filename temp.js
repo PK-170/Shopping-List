@@ -53,3 +53,14 @@ function facto(n){
 }
 
 console.log(facto(10));
+
+// fill up the array
+
+function rangeOfNumber(startNum, endNum){
+    if(endNum < startNum){return []}
+        else{
+
+        }
+    
+}
+
