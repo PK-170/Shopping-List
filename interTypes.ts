@@ -202,5 +202,40 @@ const containsDuplicate = (arr2: number[]): boolean =>{
     const set = new Set<number>(arr2);
     return set.size < arr2.length;
 }
+
  
 containsDuplicate(arr1);
+
+
+// type
+
+type cardNumber = {
+    cardNumber: string;
+}
+
+type cardDate = {
+    cardDate:string;
+}
+
+type cardDetails = cardNumber & cardDate & {
+    cvv: number;
+}
+
+// array
+
+const listOfChar: String[] = [];
+listOfChar.push("TestArray");
+
+const listOfNum: number[] = [];
+listOfNum.push(5);
+
+const listofcharac: Array<number> = [];
+listofcharac.push(66);
+
+type userDe = {
+    name: string;
+    isActive: boolean;
+}
+
+const newArr: userDe[] = [];
+newArr.push({name: "Young", isActive: true});
