@@ -52,3 +52,4 @@ function facto(n){
     return n * facto(n-1)
 }
 
+console.log(facto(10));
