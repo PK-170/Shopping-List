@@ -44,3 +44,11 @@ function compact(arr){
           return arr.trim(0, 10)
           return arr
 }
+
+// factorial
+
+function facto(n){
+    if(n <= 1){return 1;}
+    return n * facto(n-1)
+}
+
