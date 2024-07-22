@@ -74,3 +74,10 @@ let arr2 = [22, 44, 87, 56, 99];
 arr2.forEach(function(value){
     console.log("The value is " + value);
 })
+
+// map 
+
+let arr3 = arr2.map((value)=>{
+    return value*2;
+})
+console.log(arr3);
