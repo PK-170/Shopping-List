@@ -118,3 +118,12 @@ function findAvrg(...args){
 }
 
 console.log(findAvrg(66, 77, 88, 99));
+
+// reverse str
+
+function reverseStr(str){
+    if(str === ""){return ""}
+    else{ return reverseStr(str.substr(1) + str.charAt(0))}
+}
+
+console.log(reverseStr("hello"));
