@@ -67,3 +67,10 @@ function rangeOfNumber(startNum, endNum){
 }
 
 console.log(rangeOfNumber(77,99));
+
+// Array for each high order function and callback function
+let arr2 = [22, 44, 87, 56, 99];
+
+arr2.forEach(function(value){
+    console.log("The value is " + value);
+})
