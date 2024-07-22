@@ -81,3 +81,12 @@ let arr3 = arr2.map((value)=>{
     return value*2;
 })
 console.log(arr3);
+
+// filter
+
+let arr4 = arr2.filter(function(value){
+    if(value%2 == 0){return true;}
+    else{return false;}
+})
+
+console.log(arr4);
