@@ -106,3 +106,15 @@ let sum1 = arr2.reduce(function(sum, value){
 }, 0) 
 
 console.log(sum1);
+
+// Rest args
+
+function findAvrg(...args){
+   let sum = 0;
+   for(mark of args){
+    sum = sum + mark;
+   }
+   return sum/args.length;
+}
+
+console.log(findAvrg(66, 77, 88, 99));
