@@ -90,3 +90,19 @@ let arr4 = arr2.filter(function(value){
 })
 
 console.log(arr4);
+
+// filter odd number
+let arr5 = arr2.filter(function(value){
+    if(value%2 == 0){return false;}
+    else{return true;}
+})
+
+console.log(arr5);
+
+// Reduce
+
+let sum1 = arr2.reduce(function(sum=0, value){
+    return sum + value;
+}) 
+
+console.log(sum1);
