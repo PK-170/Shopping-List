@@ -101,8 +101,8 @@ console.log(arr5);
 
 // Reduce
 
-let sum1 = arr2.reduce(function(sum=0, value){
+let sum1 = arr2.reduce(function(sum, value){
     return sum + value;
-}) 
+}, 0) 
 
 console.log(sum1);
