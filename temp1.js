@@ -83,5 +83,7 @@ function selectionSort(array){
          }
       }
    }
-
 }
+
+let b = selectionSort(ar)
+console.log(b);
