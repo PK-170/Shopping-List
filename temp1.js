@@ -77,7 +77,11 @@ console.log(a);
 function selectionSort(array){
    for(let i=0; i<array.length; i++){
       let min=1;
-      
+      for(let j=i+1; j<array.length; j++){
+         if(array[j] < array[min]){
+            min = j;
+         }
+      }
    }
 
 }
