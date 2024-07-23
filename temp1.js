@@ -71,3 +71,9 @@ let ar = [3,1,9,3,6,7,88,44,3,11,9,44,33]
 let arrr = [9,1,2,3,4,5,6,7,8];
 let a = bubbleSort(arrr)
 console.log(a);
+
+// selection sort algo
+
+function selectionSort(array){
+
+}
