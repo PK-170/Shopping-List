@@ -75,5 +75,9 @@ console.log(a);
 // selection sort algo
 
 function selectionSort(array){
+   for(let i=0; i<array.length; i++){
+      let min=1;
+      
+   }
 
 }
