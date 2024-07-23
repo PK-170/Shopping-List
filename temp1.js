@@ -40,9 +40,28 @@ console.log(emp.Id);
 console.log(emp.Phone =1289456);
 
 
+
 //Data Structure
 const array = new Array();
 const str = new String();
 const obja = new Object();
 const set = new Set();
 const map = new Map();
+
+
+// buble sort algo
+
+function bubbleSort(arr1){
+   for(let i=arr1.length; i>0; i--){
+      for(let j=0; j<i-1; j++){
+         if(arr1[j] > arr1[j+1]){
+            [arr1[j], arr1[j+1]] = [arr1[j+1], arr1[j]]
+         }
+      }
+   }
+   return arr1;
+}
+
+let ar = [3,1,9,3,6,7,88,44,3,11,9,44,33]
+let a = bubbleSort(ar)
+console.log(a);
