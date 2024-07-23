@@ -52,16 +52,22 @@ const map = new Map();
 // buble sort algo
 
 function bubbleSort(arr1){
+  
    for(let i=arr1.length; i>0; i--){
+      console.log(i);
+      let isSwapped;
       for(let j=0; j<i-1; j++){
          if(arr1[j] > arr1[j+1]){
             [arr1[j], arr1[j+1]] = [arr1[j+1], arr1[j]]
+            isSwapped = true;
          }
       }
+      if(!isSwapped){break;}
    }
    return arr1;
 }
 
 let ar = [3,1,9,3,6,7,88,44,3,11,9,44,33]
-let a = bubbleSort(ar)
+let arrr = [9,1,2,3,4,5,6,7,8];
+let a = bubbleSort(arrr)
 console.log(a);
