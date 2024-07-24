@@ -15,6 +15,11 @@ void multi(int a, int b){
     printf("This multiply is %d", h);
 }
 
+void subtract(int a, int b){
+    int c = a-b;
+    printf("the subtraction of %d and %d is = %d \n", a, b, c);
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -22,5 +27,6 @@ int main(int argc, char const *argv[])
     add(55555, 888888);
     printf("Hello World");
     multi(7777777, 999);
+    subtract(60000, 50000);
     return 0;
 }
