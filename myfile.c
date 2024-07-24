@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 
 void  greet(){
   printf("Welcome to here");
@@ -12,7 +12,7 @@ void add(int a, int b){
 
 void multi(int a, int b){
     int h = a*b;
-    printf("This multiply is %d", h);
+    printf("This multiply is %lf", h);
 }
 
 void subtract(int a, int b){
@@ -28,5 +28,7 @@ int main(int argc, char const *argv[])
     printf("Hello World");
     multi(7777777, 999);
     subtract(60000, 50000);
+    int num = 5;
+    printf("sqrt of %d is %lf",num, sqrt(num));
     return 0;
 }
