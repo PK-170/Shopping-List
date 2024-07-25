@@ -6,6 +6,9 @@ int length = sizeof(age)/sizeof(age[0]);
 //two dimenstion array
 int dimArray[3][3] = {{5, 4,95}, {3, 8, 89}};
 
+//char array
+char strArray[] = {"Hello Test"};
+
 int main(){
     
     for(int i=0; i<=length; i++){
@@ -17,5 +20,7 @@ int main(){
            printf("%d \n", dimArray[i][j]);
         }
     }
+
+    printf("%c", strArray[7]);
     return 0;
 }
