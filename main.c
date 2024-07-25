@@ -12,6 +12,10 @@ int main(){
        printf("%d \n", age[i]);
     }
     
-    printf("%d", dimArray[0][2]);
+    for(int i=0; i<2; i++){
+        for(int j=0; j<3; j++){
+           printf("%d \n", dimArray[i][j]);
+        }
+    }
     return 0;
 }
