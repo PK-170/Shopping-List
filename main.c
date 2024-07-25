@@ -26,7 +26,8 @@ int main(){
     // Pointers 
     int x = 770;
     int *ptr = &x;
+    int *ptr1 = ptr;
 
-    printf("%d", *ptr);
+    printf("%d", *ptr1);
     return 0;
 }
