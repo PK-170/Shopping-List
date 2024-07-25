@@ -22,5 +22,11 @@ int main(){
     }
 
     printf("%c", strArray[7]);
+    
+    // Pointers 
+    int x = 770;
+    int *ptr = &x;
+
+    printf("%d", *ptr);
     return 0;
 }
