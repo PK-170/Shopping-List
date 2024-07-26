@@ -29,5 +29,8 @@ int main(){
     int *ptr1 = ptr;
 
     printf("%d", *ptr1);
+
+
+    printf("\nfixed the issue");
     return 0;
 }
