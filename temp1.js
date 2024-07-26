@@ -111,3 +111,9 @@ function greet(name){
 }
 
 greet("Ming Young");
+
+const user = (name)=>{
+   console.log("User name is ", name);
+}
+
+user("Kristen");
