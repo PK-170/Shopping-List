@@ -28,9 +28,12 @@ int main(){
     int *ptr = &x;
     int *ptr1 = ptr;
 
+    float y = 5.55555;
+    float *p = &y;
+
     printf("%d", *ptr1);
 
 
-    printf("\nfixed the issue");
+    printf("\nfixed the issue%f", p);
     return 0;
 }

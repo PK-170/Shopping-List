@@ -93,3 +93,15 @@ function selectionSort(array){
 
 let b = selectionSort(ar)
 console.log(b);
+
+function add(a, b){
+   return a+b;
+}
+
+console.log(add(5,999));
+
+function multy(...args){
+   return console.log(args);
+}
+
+multy(55, 77, 99, 66);
