@@ -105,3 +105,9 @@ function multy(...args){
 }
 
 multy(55, 77, 99, 66);
+
+function greet(name){
+     console.log("your name is "+ " " + name);
+}
+
+greet("Ming Young");
