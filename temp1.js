@@ -106,14 +106,28 @@ function multy(...args){
 
 multy(55, 77, 99, 66);
 
+// greet function
 function greet(name){
      console.log("your name is "+ " " + name);
 }
 
 greet("Ming Young");
 
+// user function
 const user = (name)=>{
    console.log("User name is ", name);
 }
 
 user("Kristen");
+
+// selection algo
+
+function selecAlgo(array){
+   
+   for(let i=0; i<array.length; i++){
+      let min=i;
+      for(let j=i+1; j<array.length; j++){
+         
+      }
+   }
+}
