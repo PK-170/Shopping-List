@@ -97,7 +97,7 @@ let arr5 = arr2.filter(function(value){
     else{return true;}
 })
 
-console.log(arr5);
+console.log("The filter func ", arr5);
 
 // Reduce
 
@@ -123,7 +123,7 @@ console.log(findAvrg(66, 77, 88, 99));
 
 function reverseStr(str){
     if(str === ""){return ""}
-    else{ return reverseStr(str.substr(1) + str.charAt(0))}
+    //else{ return reverseStr(str.substr(1) + str.charAt(0))}
 }
 
 console.log(reverseStr("hello"));
