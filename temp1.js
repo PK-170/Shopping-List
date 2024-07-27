@@ -139,3 +139,6 @@ function selecAlgo(array){
    }
    return array;
 }
+
+let h = selecAlgo(ar);
+console.log(h);
