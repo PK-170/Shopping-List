@@ -150,5 +150,14 @@ async function asyc(){
 }
 
 asyc().then((x)=>{
-   alert(x);
+  // alert(x);
 })
+
+//try & catch
+
+try{
+   MImg;
+}catch(error){
+   console.log(error.name);
+   
+}
