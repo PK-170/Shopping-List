@@ -142,3 +142,13 @@ function selecAlgo(array){
 
 let h = selecAlgo(ar);
 console.log(h);
+
+// async func
+
+async function asyc(){
+   return 5;
+}
+
+asyc().then((x)=>{
+   alert(x);
+})
