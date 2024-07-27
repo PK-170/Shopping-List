@@ -131,5 +131,11 @@ function selecAlgo(array){
             min = j;
          }
       }
+       if(i !== min){
+         let temp = array[i];
+         array[i] = array[min];
+         array[min] = temp;
+       }
    }
+   return array;
 }
