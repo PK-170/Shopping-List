@@ -156,8 +156,8 @@ asyc().then((x)=>{
 //try & catch
 
 try{
-   MImg;
+   throw new ReferenceError("invalid value");
 }catch(error){
-   console.log(error.name);
+   console.log(error.stack);
    
 }
