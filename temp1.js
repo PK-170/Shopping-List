@@ -196,3 +196,15 @@ console.log(l);
 let p = new Map();
 p.set("name", 80);
 console.log(p);
+
+class Ming{
+
+   constructor(name, phNumber){
+     this.name = name;
+     this.phNumber = phNumber;
+}
+
+}
+
+let mi = new Ming("young", 5678);
+console.log(mi);
