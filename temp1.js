@@ -171,3 +171,9 @@ try{
 }finally{
    console.log("this is final");
 }
+
+//
+
+let s = new Array();
+s.push(9999);
+console.log(s);
