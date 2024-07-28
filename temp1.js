@@ -177,3 +177,11 @@ try{
 let s = new Array();
 s.push(9999);
 console.log(s);
+
+let m = new Set(s);
+console.log(m);
+
+//
+let k = new Object();
+k = {name: "ming"};
+console.log(k);
