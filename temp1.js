@@ -185,3 +185,9 @@ console.log(m);
 let k = new Object();
 k = {name: "ming"};
 console.log(k);
+
+//
+
+let l = new String();
+l = "Young";
+console.log(l);
