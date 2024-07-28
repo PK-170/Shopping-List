@@ -191,3 +191,8 @@ console.log(k);
 let l = new String();
 l = "Young";
 console.log(l);
+
+//
+let p = new Map();
+p.set("name", 80);
+console.log(p);
