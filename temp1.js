@@ -161,3 +161,13 @@ try{
    console.log(error.stack);
    
 }
+
+// 
+try{
+   let = 5;
+   console.log(program);
+}catch(error){
+   console.log("Invalid answer");
+}finally{
+   console.log("this is final");
+}
