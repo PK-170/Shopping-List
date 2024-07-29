@@ -1,4 +1,4 @@
-setTimeout(greet, 9000);
+setTimeout(greet, 1000);
 
 function greet(){
     console.log("calllback func works");
@@ -9,8 +9,13 @@ function greet(){
 // Promise
 
 let newPromise = new Promise(function(myResolve, myReject){
-    let x =5;
+    let x =8;
 
     if(x ===5){console.log("OK");}
     else{console.log("ERROR");}
 });
+
+newPromise.then(
+    (value)=>{console.log(value);},
+    (error)=>{console.log(error);}
+)
