@@ -24,10 +24,11 @@ newPromise.then(
 
 let myPromise = new Promise(function(myResolve, myReject){
 
-    let req = new XMLHttpRequest();
-    req.onload = function(){
-        if(req.status == 200){myResolve(req.response)}
-        else{"file not found"}
+    setTimeout(()=>{myResolve("callback func")}, 2000)
     }
+)
 
-})
+myPromise.then(
+    (value)=>{console.log(value);}
+)
+
