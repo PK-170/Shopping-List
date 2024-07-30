@@ -75,3 +75,8 @@ function add() {
   }
 
   add()
+
+  //
+  function greet(){
+    console.log("good morning");
+  }
