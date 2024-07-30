@@ -32,3 +32,12 @@ myPromise.then(
     (value)=>{console.log(value);}
 )
 
+//async func
+
+async function myFunc(){
+    return "Hello";
+}
+
+let f = myFunc();
+
+console.log(f);
