@@ -44,3 +44,16 @@ let f = myFunc().then(
 );
 
 console.log(f);
+
+// function await
+
+async function f4(){
+    try{
+        const k = await Promise.reject(10);
+    }catch(error){
+        console.log(error);
+    }
+
+}
+
+f4()
