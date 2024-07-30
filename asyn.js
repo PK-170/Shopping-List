@@ -57,3 +57,11 @@ async function f4(){
 }
 
 f4()
+
+// foo
+
+async function g5(){
+    return await Promise.resolve(5);
+}
+
+console.log(g5())
