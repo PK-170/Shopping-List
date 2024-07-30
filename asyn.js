@@ -38,6 +38,9 @@ async function myFunc(){
     return "Hello";
 }
 
-let f = myFunc();
+let f = myFunc().then(
+    (value)=>{console.log("success")},
+    (error)=>{console.log("failed")}
+);
 
 console.log(f);
