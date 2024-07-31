@@ -85,9 +85,19 @@ function add() {
 
   const add1 = (function () {
     let counter = 0;
-    return function () {counter += 1; return counter}
+    return ()=>{counter += 1; return counter}
   })();
   
   add1();
   add1();
  console.log(add1());
+
+ // nested func
+
+ function add2(){
+    let counter =0;
+
+    return counter;
+ }
+
+ console.log(add2());
