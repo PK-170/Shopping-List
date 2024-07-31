@@ -96,7 +96,8 @@ function add() {
 
  function add2(){
     let counter =0;
-
+    function a(){counter+=10; return counter;}
+    a();
     return counter;
  }
 
