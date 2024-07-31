@@ -102,3 +102,14 @@ function add() {
  }
 
  console.log(add2());
+
+ //
+ const person = {
+    firstName:"Ming",
+    lastName: "Young",
+    fullName: function () {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+
+  console.log(person);
