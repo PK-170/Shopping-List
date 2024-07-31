@@ -80,3 +80,14 @@ function add() {
   function greet(){
     console.log("good morning");
   }
+
+  // counter func
+
+  const add1 = (function () {
+    let counter = 0;
+    return function () {counter += 1; return counter}
+  })();
+  
+  add1();
+  add1();
+ console.log(add1());
