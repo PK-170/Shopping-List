@@ -118,3 +118,6 @@ function add() {
     firstName:"Zihan",
     lastName: "Young",
   }
+
+  let fullName = person.fullName.bind(member);
+  console.log(member);
