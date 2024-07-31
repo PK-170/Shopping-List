@@ -113,3 +113,8 @@ function add() {
   }
 
   console.log(person);
+
+  const member = {
+    firstName:"Zihan",
+    lastName: "Young",
+  }
