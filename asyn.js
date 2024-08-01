@@ -158,3 +158,10 @@ function add() {
   let str = "test"
   let v = str.length;
   console.log("the str length ",v);
+
+  //
+  let firstName = "Ming";
+  let lastName = "Young";
+
+  let text = `Welcome ${firstName}, ${lastName}!`;
+  console.log(text);
