@@ -130,6 +130,18 @@ function add() {
     let a = 100;
     console.log(b);
   }catch(error){
-    
     console.log("invalid value");
+  }
+
+  //
+
+  const person1 = {
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  
+  const person2 = {
+    firstName: "Ming",
+    lastName: "Young"
   }
