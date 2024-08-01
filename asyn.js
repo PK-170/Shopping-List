@@ -145,3 +145,5 @@ function add() {
     firstName: "Ming",
     lastName: "Young"
   }
+
+  person1.fullName.apply(person2);
