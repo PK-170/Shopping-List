@@ -1,3 +1,5 @@
+const { type } = require("@testing-library/user-event/dist/type");
+
 setTimeout(greet, 1000);
 
 function greet(){
@@ -121,3 +123,13 @@ function add() {
 
   let fullName = person.fullName.bind(member);
   console.log(member);
+
+  //
+
+  try{
+    let a = 100;
+    console.log(b);
+  }catch(error){
+    
+    console.log("invalid value");
+  }
