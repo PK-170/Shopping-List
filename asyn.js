@@ -147,3 +147,9 @@ function add() {
   }
 
   person1.fullName.apply(person2);
+
+  //
+  function myFunction(x, y = 10) {
+    return x + y;
+  }
+  console.log("my func value",myFunction(5));
