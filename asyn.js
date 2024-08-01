@@ -153,3 +153,8 @@ function add() {
     return x + y;
   }
   console.log("my func value",myFunction(5));
+
+  //
+  let str = "test"
+  let v = str.length;
+  console.log("the str length ",v);
