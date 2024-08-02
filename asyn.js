@@ -172,3 +172,6 @@ function add() {
   }
 
   welcome("This is new message from mac")
+
+  //
+  function greeet(){}
