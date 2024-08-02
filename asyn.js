@@ -172,6 +172,5 @@ function add() {
   }
 
   welcome("This is new message from mac")
-
-  //
+ welcome("This is message to display")
   
