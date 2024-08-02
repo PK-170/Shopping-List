@@ -167,3 +167,8 @@ function add() {
   console.log(text);
 
   // Test
+  function welcome(msg){
+    console.log(msg);
+  }
+
+  welcome("This is new message from mac")
