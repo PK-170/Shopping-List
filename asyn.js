@@ -181,3 +181,5 @@ let x = new String();
 let c = new Array();
 let b = new Set();
 let n = new Map();
+
+z = {}
