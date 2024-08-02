@@ -172,5 +172,12 @@ function add() {
   }
 
   welcome("This is new message from mac")
- welcome("This is message to display")
+  welcome("This is message to display")
   
+  //
+
+let z = new Object();
+let x = new String();
+let c = new Array();
+let b = new Set();
+let n = new Map();
