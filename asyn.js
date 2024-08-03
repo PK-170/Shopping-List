@@ -183,3 +183,12 @@ let b = new Set();
 let n = new Map();
 
 z = {}
+z = {
+  id: 1001,
+  firstName: 'Ming',
+  lastName: 'Young',
+  Region: 'NSW',
+}
+console.log(z);
+
+// 
