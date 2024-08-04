@@ -192,3 +192,6 @@ z = {
 console.log(z);
 
 // 
+
+x = "This is the string of the world";
+console.log(x);
