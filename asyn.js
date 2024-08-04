@@ -197,3 +197,7 @@ x = "This is the string of the world";
 console.log(x);
 
 c = [44, 77, 88, 99, 22];
+for(let element of c){
+  console.log(element);
+  
+}
