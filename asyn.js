@@ -201,3 +201,8 @@ for(let element of c){
   console.log(element);
   
 }
+
+//
+p = [44, 66, 88, 88, 11, 77];
+b = new Set(p);
+console.log(b);
