@@ -217,7 +217,7 @@ function cowSays(sound) {
 //closures
 const first = () => {
   const greet = 'Hi';
-  const second = () => {
+  const second = () => {   // second is closure
       const name = 'john';
       console.log(greet);
   }
