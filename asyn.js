@@ -206,3 +206,10 @@ for(let element of c){
 p = [44, 66, 88, 88, 11, 77];
 b = new Set(p);
 console.log(b);
+
+//hoisting
+cowSays('moo');
+
+function cowSays(sound) {
+    console.log(sound);
+}
