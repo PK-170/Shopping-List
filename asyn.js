@@ -265,3 +265,10 @@ const showPosts = async () => {
 }
 showPosts();
 
+// Array
+let newArray = ["Idris", "Daniel", "Joseph"];
+
+  let length = newArray.length;
+
+  let firstElement = newArray[length - 3]; 
+  console.log(firstElement);  // Idris
