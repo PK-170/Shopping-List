@@ -258,3 +258,10 @@ promise.then(result => console.log(result))
 //Stop and wait until something is resolved. Async & await is just syntactic sugar on top of Promises 
 //and like promises it also provides a way to maintain asynchronous operation more synchronously.
 
+const showPosts = async () => {
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+  const posts = await response.json();
+  console.log(posts) ;
+}
+showPosts();
+
