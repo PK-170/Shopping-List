@@ -254,3 +254,7 @@ const promise = new Promise((resolve, reject) => {
 })
 promise.then(result => console.log(result))
 .catch(() => { console.log('error!'); });
+
+//Stop and wait until something is resolved. Async & await is just syntactic sugar on top of Promises 
+//and like promises it also provides a way to maintain asynchronous operation more synchronously.
+
