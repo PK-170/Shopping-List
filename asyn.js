@@ -281,3 +281,9 @@ let newArray1 = ["Idris", "Daniel", "Joseph"];
 for (let i = 0; i < newArray1.length; i++) {
     return newArray1[i]
 }
+//
+
+let fruits = ["Apple", "Grape", "Cashew"];
+
+let mappedFruits = fruits.map(item => item + "s");
+console.log(mappedFruits); // ["Apples", "Grapes", "Cashews"]
