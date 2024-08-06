@@ -272,3 +272,7 @@ let newArray = ["Idris", "Daniel", "Joseph"];
 
   let firstElement = newArray[length - 3]; 
   console.log(firstElement);  // Idris
+
+
+  let secondElement = newArray[length - 2];
+  console.log(secondElement);  // Joseph
