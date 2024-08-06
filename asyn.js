@@ -276,3 +276,8 @@ let newArray = ["Idris", "Daniel", "Joseph"];
 
   let secondElement = newArray[length - 2];
   console.log(secondElement);  // Joseph
+//
+let newArray1 = ["Idris", "Daniel", "Joseph"];
+for (let i = 0; i < newArray1.length; i++) {
+    return newArray1[i]
+}
