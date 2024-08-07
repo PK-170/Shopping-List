@@ -289,4 +289,6 @@ let mappedFruits = fruits.map(item => item + "s");
 console.log(mappedFruits); 
 
 // foreach
+let fruits1 = ["Apple", "Grape", "Cashew"];
 
+fruits1.forEach(fruit => console.log(fruit));
