@@ -286,4 +286,7 @@ for (let i = 0; i < newArray1.length; i++) {
 let fruits = ["Apple", "Grape", "Cashew"];
 
 let mappedFruits = fruits.map(item => item + "s");
-console.log(mappedFruits); // ["Apples", "Grapes", "Cashews"]
+console.log(mappedFruits); 
+
+// foreach
+
