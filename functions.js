@@ -27,3 +27,6 @@ function Bike(model,color){
   Bike.prototype.getDetails = function(){
     return this.model+" bike is "+this.color;
    }
+
+   console.log(bikeObj1.getDetails()); 
+   console.log(bikeObj2.getDetails());
