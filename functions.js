@@ -18,3 +18,8 @@ function outerFunc(){
 outerFunc().innerFunc().childFunc();
 
 //new function
+
+function Bike(model,color){
+    this.model = model,
+    this.color = color
+  }
