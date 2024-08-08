@@ -33,3 +33,6 @@ function Bike(model,color){
 
    console.log(bikeObj1.getDetails()); 
    console.log(bikeObj2.getDetails());
+   Bike.prototype.getInfo = function() {
+    return this.color + ' ' + this.model+ ' bike';
+};
