@@ -16,3 +16,5 @@ function outerFunc(){
 }
 
 outerFunc().innerFunc().childFunc();
+
+//new function
