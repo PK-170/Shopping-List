@@ -28,5 +28,8 @@ function Bike(model,color){
     return this.model+" bike is "+this.color;
    }
 
+   var bikeObj1 = new Bike("BMW","Black");
+   var bikeObj2 = new Bike("BMW","white");
+
    console.log(bikeObj1.getDetails()); 
    console.log(bikeObj2.getDetails());
