@@ -44,3 +44,10 @@ function Bike(model,color){
 console.log(foo);
  })
 ();
+
+//iife
+
+var greeting='Welcome to blog';
+(function(){
+  console.log(greeting); 
+})();
