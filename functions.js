@@ -36,3 +36,11 @@ function Bike(model,color){
    Bike.prototype.getInfo = function() {
     return this.color + ' ' + this.model+ ' bike';
 };
+
+//iife
+
+(function () 
+{ var foo = "hello";
+console.log(foo);
+ })
+();
