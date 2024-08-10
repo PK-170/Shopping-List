@@ -63,3 +63,4 @@ var add =   function (a){
      }
 
      console.log(add(2)(3)(4));
+     console.log(add(3)(4)(5)); 
