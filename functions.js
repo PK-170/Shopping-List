@@ -53,3 +53,11 @@ var greeting='Welcome to blog';
 })();
 
 //nested func
+
+var add =   function (a){
+    return function(b){
+          return function(c){
+                 return a+b+c;
+                 }        
+           }
+     }
