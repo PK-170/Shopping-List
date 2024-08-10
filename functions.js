@@ -51,3 +51,5 @@ var greeting='Welcome to blog';
 (function(){
   console.log(greeting); 
 })();
+
+//nested func
