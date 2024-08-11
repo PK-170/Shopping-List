@@ -71,8 +71,9 @@ var add =   function (a){
         console.log('Hello ' + name);
      }
 
-     function processUserInput(callback) {
-        name1 = 'raja';
-        callback(name1);
+     function processUserInput(greeting) {
+        name1 = 'Ming';
+        greeting(name1);
     }
-    
+
+processUserInput(greeting);
