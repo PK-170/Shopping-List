@@ -70,3 +70,9 @@ var add =   function (a){
      function greeting(name) {
         console.log('Hello ' + name);
      }
+
+     function processUserInput(callback) {
+        name1 = 'raja';
+        callback(name1);
+    }
+    
