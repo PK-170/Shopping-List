@@ -67,3 +67,6 @@ var add =   function (a){
      console.log(add(-555)(4)(5));
 
      // callback func
+     function greeting(name) {
+        console.log('Hello ' + name);
+     }
