@@ -65,3 +65,5 @@ var add =   function (a){
      console.log(add(3)(4)(5)); 
      console.log(add(-3)(4)(5));
      console.log(add(-555)(4)(5));
+
+     // callback func
