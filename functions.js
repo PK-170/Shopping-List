@@ -81,4 +81,7 @@ var add =   function (a){
             reject('Not completed');
         }
      })
+     promise.then(function(result) {
+        console.log(result); 
+    })
     
