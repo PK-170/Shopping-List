@@ -74,6 +74,11 @@ var add =   function (a){
      // Promise
 
      var promise = new Promise(function(resolve, reject) {
-
+        isDbOperationCompleted = false;
+        if (isDbOperationCompleted) {
+            resolve('Completed');
+        } else {
+            reject('Not completed');
+        }
      })
     
