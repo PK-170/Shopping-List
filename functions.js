@@ -71,4 +71,9 @@ var add =   function (a){
         console.log('Hello ' + name);
      }
 
+     // Promise
+
+     var promise = new Promise(function(resolve, reject) {
+
+     })
     
