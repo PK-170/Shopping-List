@@ -71,9 +71,4 @@ var add =   function (a){
         console.log('Hello ' + name);
      }
 
-     function processUserInput(greeting) {
-        name1 = 'Ming';
-        greeting(name1);
-    }
-
-processUserInput(greeting);
+    
