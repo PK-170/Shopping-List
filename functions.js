@@ -83,5 +83,7 @@ var add =   function (a){
      })
      promise.then(function(result) {
         console.log(result); 
+    }).catch(function(error) {
+        console.log(error);                                                  
     })
     
