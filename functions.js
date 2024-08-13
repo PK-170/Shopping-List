@@ -86,4 +86,6 @@ var add =   function (a){
     }).catch(function(error) {
         console.log(error);                                                  
     })
+
+    // Async func
     
