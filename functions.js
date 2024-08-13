@@ -104,7 +104,8 @@ var add =   function (a){
     // event func 
     
 function runWhileLoopForNSeconds(sec){
-    let start = Date.now(), now = start;
+    let start = Date.now();
+    let now = start;
   while (now - start < (sec*1000)) {
     now = Date.now();
   }
