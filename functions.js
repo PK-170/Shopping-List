@@ -88,4 +88,7 @@ var add =   function (a){
     })
 
     // Async func
+    async function getUserDetail() {
+        
+    }
     
