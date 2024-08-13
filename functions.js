@@ -100,3 +100,9 @@ var add =   function (a){
     }
     
     console.log(getUserDetail());
+
+    // event func 
+    
+function runWhileLoopForNSeconds(sec){
+    
+}
