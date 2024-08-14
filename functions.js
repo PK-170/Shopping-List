@@ -116,6 +116,9 @@ function runWhileLoopForNSeconds(sec){
 const animal = function(name){
     const animal = {};
     animal.name = name;
-    
+    animal.walk = function(){
+        console.log(this.name + " "+ "walking");
+        
+    }
 
 }
