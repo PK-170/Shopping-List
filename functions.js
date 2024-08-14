@@ -118,7 +118,7 @@ const animal = function(name){
     animal.name = name;
     animal.walk = function(){
         console.log(this.name + " "+ "walking");
-        
     }
-
 }
+
+let animal1 = animal(dog);
