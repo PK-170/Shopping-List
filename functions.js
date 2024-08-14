@@ -122,3 +122,4 @@ const animal = function(name){
 }
 
 let animal1 = animal(dog);
+animal1.walk();
