@@ -111,3 +111,8 @@ function runWhileLoopForNSeconds(sec){
   }
 }
 
+// Factory Design Pattern
+
+const animal = function(name){
+    
+}
