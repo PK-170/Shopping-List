@@ -1,5 +1,5 @@
 import styles from './Content.module.css'
-
+import { useState } from 'react';
 
 
 function Content(){
@@ -96,7 +96,7 @@ const factEach = (n) =>{
             <p className={styles.content}>
                 Products
             </p>
-            <button onClick={handleClick}>Count</button>  
+            <button onDoubleClick={handleClick}>Count</button>  
             <button onClick={()=>handleName("Suger")}>Product</button>
             <button onClick={handleLast}>names</button> 
             <button onClick={()=>factEach(101)}>factoria</button> 
