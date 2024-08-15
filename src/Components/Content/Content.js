@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 function Content(){
-    const name1 = "Dave";
+    const name1 = "zihan";
     const [name, setName] = useState('Ming');
 
     const handleClick = () => {
