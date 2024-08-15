@@ -97,7 +97,7 @@ const factEach = (n) =>{
                 Products
             </p>
             <button onClick={handleClick}>Count</button>  
-            <button onClick={()=>handleName("Milk")}>Product</button>
+            <button onClick={()=>handleName("Suger")}>Product</button>
             <button onClick={handleLast}>names</button> 
             <button onClick={()=>factEach(101)}>factoria</button> 
             <p>
