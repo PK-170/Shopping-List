@@ -3,6 +3,7 @@ import styles from './Content.module.css'
 
 
 function Content(){
+    const name = "Dave";
 
     const handleClick = () => {
          console.log("Products")
@@ -34,6 +35,7 @@ console.log(res);
 //
 
 const fib = (n) => {
+
     const arr = [0,1];
 
     for (let i = 2; i <=n; i++) {
@@ -99,7 +101,7 @@ const factEach = (n) =>{
             <button onClick={handleLast}>names</button> 
             <button onClick={()=>factEach(101)}>factoria</button> 
             <p>
-                This is Paragraph
+                This is Paragraph {name}
             </p>
         </main>
 
