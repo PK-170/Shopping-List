@@ -4,7 +4,8 @@ import { useState } from 'react';
 
 function Content(){
     const name1 = "zihan";
-    const [name] = useState('Ming');
+    const [name, setName] = useState('Ming');
+    const [count, setCount] = useState(0);
 
     const handleClick = () => {
          console.log("Products")
@@ -102,7 +103,7 @@ const factEach = (n) =>{
             <button onClick={handleLast}>names</button> 
             <button onClick={()=>factEach(101)}>factoria</button> 
             <p>
-                This is Paragraph {name}
+                This is Paragraph {name} {count}
             </p>
         </main>
 
