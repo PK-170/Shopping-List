@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function Content(){
     const name1 = "zihan";
-    const [name, setName] = useState('Ming');
+    const [name] = useState('Ming');
 
     const handleClick = () => {
          console.log("Products")
