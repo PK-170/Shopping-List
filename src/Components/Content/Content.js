@@ -9,6 +9,7 @@ function Content(){
 
     const handleClick = () => {
         setCount(count+88)
+        setName('ming2')
          console.log(count)
     }
 
