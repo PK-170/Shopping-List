@@ -102,7 +102,7 @@ const factEach = (n) =>{
             <button onClick={handleLast}>names</button> 
             <button onClick={()=>factEach(101)}>factoria</button> 
             <p>
-                This is Paragraph {name1}
+                This is Paragraph {name}
             </p>
         </main>
 
