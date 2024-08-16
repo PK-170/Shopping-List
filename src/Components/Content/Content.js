@@ -8,7 +8,8 @@ function Content(){
     const [count, setCount] = useState(0);
 
     const handleClick = () => {
-         console.log("Products")
+        setCount(count+88)
+         console.log(count)
     }
 
     const handleName = (name) => {
@@ -103,7 +104,7 @@ const factEach = (n) =>{
             <button onClick={handleLast}>names</button> 
             <button onClick={()=>factEach(101)}>factoria</button> 
             <p>
-                This is Paragraph {name} {count}
+                This is Paragraph {name} {count} 
             </p>
         </main>
 
