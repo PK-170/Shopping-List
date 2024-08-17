@@ -37,9 +37,6 @@ function Content(){
             <button onClick={handleClick}>Count</button>  
             <button onClick={()=>handleName(name)}>Product</button>
             <button onClick={handleLast}>names</button> 
-            <p>
-                This is Testing Paragraph
-            </p>
         </main>
 
     );
