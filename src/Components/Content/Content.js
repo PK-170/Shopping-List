@@ -9,7 +9,10 @@ function Content(){
     const [count, setCount] = useState(100);
 
     const handleClick = () => {
+         let ranNum = Math.floor(Math.random()*55);
+         setCount(ranNum)
          console.log(count);
+         
     }
 
     const handleName = (name) => {
