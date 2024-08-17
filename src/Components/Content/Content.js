@@ -5,7 +5,7 @@ import { useState } from 'react';
 function Content(){
 
     const name1 = "zihan";
-    const [name, setName] = useState('Ming');
+    const [name, setName] = useState('');
     const [count, setCount] = useState(100);
 
     const handleClick = () => {
