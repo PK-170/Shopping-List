@@ -6,12 +6,10 @@ function Content(){
 
     const name1 = "zihan";
     const [name, setName] = useState('Ming');
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(100);
 
     const handleClick = () => {
-        setCount(count+88)
-        setName('ming2')
-         console.log(count)
+         console.log(count);
     }
 
     const handleName = (name) => {
@@ -31,11 +29,11 @@ function Content(){
             <p className={styles.content}>
                 Products
             </p>
-            <button onDoubleClick={handleClick}>Count</button>  
+            <button onClick={handleClick}>Count</button>  
             <button onClick={()=>handleName("Suger")}>Product</button>
             <button onClick={handleLast}>names</button> 
             <p>
-                This is Paragraph {name} {count} 
+                This is Paragraph {name}
             </p>
         </main>
 
