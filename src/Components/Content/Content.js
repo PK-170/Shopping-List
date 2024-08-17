@@ -20,7 +20,9 @@ function Content(){
 
         const names = ['Daniel', 'Harry', 'Brian'];
         const int = Math.floor(Math.random() * 3);
-        console.log(names[int]);
+        setName(names[int]);
+        console.log(name);
+        
     }
 
 
@@ -30,10 +32,10 @@ function Content(){
                 Products
             </p>
             <button onClick={handleClick}>Count</button>  
-            <button onClick={()=>handleName("Suger")}>Product</button>
+            <button onClick={()=>handleName(name)}>Product</button>
             <button onClick={handleLast}>names</button> 
             <p>
-                This is Paragraph {name}
+                This is Testing Paragraph
             </p>
         </main>
 
