@@ -1,5 +1,5 @@
 import styles from './Content.module.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Content(){
