@@ -7,6 +7,7 @@ function Content(){
     const name1 = "zihan";
     const [name, setName] = useState('');
     const [count, setCount] = useState(100);
+    const [color, setColor] = useState('Red');
 
     const handleClick = () => {
          let ranNum = Math.floor(Math.random()*55);
