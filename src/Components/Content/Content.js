@@ -13,6 +13,7 @@ function Content(){
          let ranNum = Math.floor(Math.random()*55);
          setCount(ranNum)
          console.log(count);
+         console.log(color);
          
     }
 
