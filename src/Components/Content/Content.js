@@ -37,7 +37,7 @@ function Content(){
             <button className={styles.button} onClick={handleClick}>Count</button>  
             <button className={styles.button}  onClick={()=>handleName(name)}>Product</button>
             <button className={styles.button}  onClick={handleLast}>names</button> 
-            <button className={styles.button} onClick={handleClick}>Count1</button>
+            
         </main>
 
     );
